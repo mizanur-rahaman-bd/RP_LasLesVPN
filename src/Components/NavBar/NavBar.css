@@ -1,0 +1,12 @@
+.menu_content ul li a{
+    @apply text-[#4F5665] text-[16px] font-Rubik font-normal
+}
+.menu_content ul li a:hover{
+    @apply text-[#F53838]
+}
+.sign_up_link a{
+    @apply text-[#0B132A] text-[16px] font-Rubik font-medium border-solid border-[2px] border-transparent
+}
+.sign_up_link a:hover{
+    @apply text-[#F53855] border-solid border-[2px] border-[#F53855] rounded-[50px]
+}
