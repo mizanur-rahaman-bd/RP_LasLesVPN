@@ -1,0 +1,18 @@
+.banner{
+    @apply px-4 lg:px-0 mt-[88px]
+}
+.banner_info{
+    @apply flex justify-between items-center
+}
+.banner_text_col{
+    @apply w-[555px]
+}
+.banner_text_col h1{
+    @apply font-Rubik font-medium text-[#0B132A] text-[50px]
+}
+.banner_text_col p{
+    @apply font-Rubik font-normal text-[16px] text-[#4F5665] mt-[20px] mb-[50px]
+}
+.banner_text_col a{
+    @apply px-[77px] py-[17px] font-Rubik font-bold text-[16px] bg-[#F53838] text-white rounded-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]
+}
