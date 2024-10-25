@@ -1,3 +1,42 @@
 .responsiveNave{
-    @apply lg:hidden
+    @apply relative lg:hidden
+}
+.resmenu{
+    @apply absolute w-[200px] bg-[#9EC8B9] overflow-hidden right-4 pt-2 rounded-lg;
+    animation: resmenu 1s linear; 
+}
+@keyframes resmenu {
+    0%{
+        opacity: 0;  
+        width: 0;
+        height: 100%;
+         
+    }     
+        
+    100%{
+        opacity: 1;
+        width: 200px;
+        height: 215px;     
+        
+        
+    }
+}
+.res_menu_content ul li a{
+    @apply text-[#4F5665] text-[16px] font-Rubik font-normal
+}
+.res_menu_content ul li a:hover{
+    @apply text-[#F53838]
+}
+.res_menu_content ul{
+    @apply flex flex-col gap-1 items-center
+}
+.res_sign_up_link{
+    @apply text-center mt-5 pb-5
+} 
+
+.res_sign_up_link a{
+    @apply px-2 py-2 text-[#0B132A] text-[16px] font-Rubik font-medium border-solid border-[2px] border-transparent
+}
+.res_sign_up_link a:hover{
+    @apply text-[#F53855] border-solid border-[2px] border-[#F53855] rounded-[50px]
 }

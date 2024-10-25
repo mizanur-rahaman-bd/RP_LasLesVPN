@@ -1,3 +1,6 @@
+.menu_without_logo{
+    @apply hidden lg:block
+}
 .menu_content ul li a{
     @apply text-[#4F5665] text-[16px] font-Rubik font-normal
 }
