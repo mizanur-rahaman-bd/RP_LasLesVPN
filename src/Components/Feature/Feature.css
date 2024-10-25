@@ -1,0 +1,9 @@
+.feature_row{
+    @apply flex justify-between items-center
+}
+.feature_text_col h2{
+    @apply font-Rubik font-medium text-[35px] text-[#0B132A]
+}
+.feature_text_col p{
+    @apply font-Rubik font-normal text-[16px] text-[#4F5665] my-[20px]
+}

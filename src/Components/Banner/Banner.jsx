@@ -1,6 +1,10 @@
 import React from 'react'
 import './Banner.css'
 import { Link } from 'react-router-dom'
+import CommonCounter from '../Common/CommonCounter'
+import { FaUser } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaServer } from "react-icons/fa6";
 
 const Banner = () => {
   return (
@@ -23,6 +27,25 @@ const Banner = () => {
 
                 </div>
                 <div className="banner_counter">
+                  <div className='w-[190px]'>
+                  <CommonCounter countIcon={<FaUser className='w-[24px] h-[24] text-[#F53838]' />} countNumber={90} countPlus={'+'} countText={'Users'} />
+
+                  </div>
+                  <div>
+                    <span className='w-[2px] h-[125px] lg:block bg-[#EEEFF2]'></span>
+
+                  </div>
+                  <div className='w-[190px]'>
+                    <CommonCounter countIcon={<FaLocationDot className='w-[24px] h-[24] text-[#F53838]' />} countNumber={30} countPlus={'+'} countText={'Locations'} /> 
+                  </div>
+                  <div>
+                     <span className='w-[2px] h-[125px] lg:block bg-[#EEEFF2]'></span>
+
+                  </div>
+                  <div className='w-[190px]'>
+                    <CommonCounter countIcon={<FaServer className='w-[24px] h-[24] text-[#F53838]' />} countNumber={50} countPlus={'+'} countText={'Servers'} />
+                  </div>
+                   
 
                 </div>
                

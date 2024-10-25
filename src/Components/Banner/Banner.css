@@ -1,18 +1,27 @@
 .banner{
-    @apply px-4 lg:px-0 mt-[88px]
+    @apply px-4 lg:px-0 mt-[30px] lg:mt-[88px]
 }
 .banner_info{
-    @apply flex justify-between items-center
+    @apply flex flex-wrap gap-[30px] lg:gap-0 justify-between items-center
 }
 .banner_text_col{
     @apply w-[555px]
 }
 .banner_text_col h1{
-    @apply font-Rubik font-medium text-[#0B132A] text-[50px]
+    @apply font-Rubik font-medium text-[#0B132A] text-[26px] lg:text-[50px]
 }
 .banner_text_col p{
-    @apply font-Rubik font-normal text-[16px] text-[#4F5665] mt-[20px] mb-[50px]
+    @apply font-Rubik font-normal text-[11px] lg:text-[16px] text-[#4F5665] mt-[12px] lg:mt-[20px] mb-[33px] lg:mb-[50px]
 }
 .banner_text_col a{
-    @apply px-[77px] py-[17px] font-Rubik font-bold text-[16px] bg-[#F53838] text-white rounded-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]
+    @apply px-[25px] lg:px-[77px] py-[10px] lg:py-[17px] font-Rubik font-bold text-[14px] lg:text-[16px] bg-[#F53838] text-white rounded-[10px] shadow-[0_35px_60px_-15px_rgba(220,116,116)]
+}
+.banner_text_col a:hover{
+    @apply bg-lime-600 text-slate-800
+}
+.banner_text_col a:active{
+    @apply scale-110
+}
+.banner_counter{
+    @apply w-[300px] lg:w-[1140px] h-[200px] mt-[70px] lg:mt-[102px] mb-[30px] lg:mb-[95px] lg:ml-[40px] flex lg:flex-wrap flex-col lg:flex-row gap-[15px] lg:gap-0 justify-between items-center px-4 lg:px-[90px] lg:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
 }
