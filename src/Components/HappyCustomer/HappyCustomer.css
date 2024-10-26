@@ -1,0 +1,7 @@
+.HappyCustomer_Text_Row h2{
+    @apply w-[447px] mx-auto text-center font-Rubik font-medium text-[35px] text-[#0B132A] mb-[20px]
+}
+.HappyCustomer_Text_Row p{
+    @apply w-[555px] mx-auto text-center font-Rubik font-normal text-[16px] text-[#4F5665] mb-[60px]
+}
+

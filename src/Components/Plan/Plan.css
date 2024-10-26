@@ -1,0 +1,29 @@
+.plan_text_row{
+    @apply text-center
+}
+.plan_text_row h2{
+    @apply font-Rubik font-medium text-[30px] lg:text-[35px] text-[#0B132A] mb-[15px] lg:mb-[20px]
+}
+.plan_text_row p{
+    @apply w-[300px] lg:w-[555px] font-Rubik font-normal text-[12px] lg:text-[16px] text-[#4F5665] mx-auto mb-[40px] lg:mb-[60px]
+}
+.plan_single_card{
+    @apply w-[280px] lg:w-[333px] text-center px-[30px] lg:px-[69px] pt-[40px] lg:pt-[79px] pb-[25px] lg:pb-[50px];
+    border: solid 2px #DDDDDD;
+}
+.plan_single_card:hover{
+    border: solid 2px #F53838;
+}
+.plan_single_card ul li{
+    @apply font-Rubik font-normal text-[14px] text-[#4F5665] leading-[30px]
+}
+.plan_single_card h3{
+    @apply font-Rubik font-medium text-[18px] text-[#0B132A] my-[30px]
+}
+.plan_single_card a{
+    @apply py-[13px] px-[62px] font-bold text-[16px] font-Rubik rounded-[50px];
+    border: solid 2px #F53838;
+}
+.plan_single_card a:hover{
+    @apply bg-[#F53838] text-white
+}

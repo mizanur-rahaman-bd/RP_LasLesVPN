@@ -1,0 +1,16 @@
+.network_text_row{
+    @apply mb-[60px] lg:mb-[155px]
+}
+.network_text_row h2{
+    @apply font-Rubik font-medium text-[26px] lg:text-[35px] text-[#0B132A]
+
+}
+.network_text_row p{
+    @apply text-[12px] lg:text-[16] font-Rubik text-[#4F5665] font-normal
+}
+.platform{
+    @apply flex flex-wrap justify-around items-center
+}
+.platform img{
+    @apply inline-block
+}

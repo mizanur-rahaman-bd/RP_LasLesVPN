@@ -1,9 +1,12 @@
 .feature_row{
-    @apply flex justify-between items-center
+    @apply flex flex-wrap px-4 mt-[90px] lg:mt-0 pb-[50px] lg:pb-[130px] justify-between items-center shadow-[0px_10px_15px_0px_rgba(0,_0,_0,_0.1)]
 }
 .feature_text_col h2{
-    @apply font-Rubik font-medium text-[35px] text-[#0B132A]
+    @apply font-Rubik font-medium text-[26px] lg:text-[35px] text-[#0B132A]
 }
 .feature_text_col p{
-    @apply font-Rubik font-normal text-[16px] text-[#4F5665] my-[20px]
+    @apply font-Rubik font-normal text-[12px] lg:text-[16px] text-[#4F5665] my-[12px] lg:my-[20px]
+}
+.feature_text_col ul li{
+    @apply leading-[32px] lg:leading-[40px]
 }
