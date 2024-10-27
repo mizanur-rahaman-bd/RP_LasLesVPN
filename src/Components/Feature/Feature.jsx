@@ -4,7 +4,7 @@ import './Feature.css'
 const Feature = () => {
   return (
     <>
-    <section className='feature'>
+    <section className='feature px-4'>
         <div className="container">
             <div className="feature_row">
                 <div className="feature_img_col mb-[15px] lg:mb-0">

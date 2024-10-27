@@ -1,0 +1,37 @@
+.person_one{
+    @apply w-[280px] lg:w-[400px] h-[180px] lg:h-[230px] p-[10px] lg:p-[30px] rounded-[10px] z-0;
+    border: solid 2px #DDDDDD;
+}
+.person_one:hover{
+    border: solid 2px #F53838;
+}
+.person_heading_Row{
+    @apply flex flex-wrap justify-between items-center
+}
+.name h4{
+    @apply font-Rubik font-medium text-[14px] lg:text-[18px] text-[#0B132A]
+
+}
+.name h5{
+    @apply font-Rubik font-normal text-[12px] lg:text-[14px] text-[#4F5665]
+}
+.person_text_row{
+    @apply w-[265px] lg:w-[340px] mt-[8px] font-Rubik font-normal text-[12px] lg:text-[16px] text-[#0B132A]
+}
+.review_col{
+    @apply flex gap-[5px] lg:gap-[10px]
+}
+.review_col p{
+    @apply font-Rubik font-normal text-[13px] lg:text-[16px] text-[#0B132A]
+}
+.left_arrow , .right_arrow{
+    @apply w-[40px] lg:w-[60px] h-[40px] lg:h-[60px] text-[20px] lg:text-[30px] text-[#F53838] z-10
+}
+.right_arrow{
+    @apply absolute right-2 
+
+}
+.left_arrow{
+    @apply absolute left-3 z-10
+}
+

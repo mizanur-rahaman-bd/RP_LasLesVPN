@@ -38,7 +38,7 @@ const Plan = () => {
                     <img className='inline-block' src="images/StandardPlan_img.png" alt="" />
                     <h3>Standard Plan</h3>
                     <div>
-                    <ul className='text-left mb-[60px] lg:mb-[130px'>
+                    <ul className='text-left mb-[60px] lg:mb-[130px]'>
                         <li><img className='pr-[15px] inline-block' src="images/Plan_Tik_img.png" alt="Tik" />Unlimited Bandwitch</li>
                         <li><img className='pr-[15px] inline-block' src="images/Plan_Tik_img.png" alt="Tik" />Encrypted Connection</li>
                         <li><img className='pr-[15px] inline-block' src="images/Plan_Tik_img.png" alt="Tik" />No Traffic Logs</li>
@@ -59,7 +59,7 @@ const Plan = () => {
                     <img className='inline-block' src="images/PremiumPlan_img.png" alt="Premium" />
                     <h3>Premium Plan</h3>
                     <div>
-                    <ul className='text-left mb-[60px] lg:mb-[130px'>
+                    <ul className='text-left mb-[60px] lg:mb-[130px]'>
                         <li><img className='pr-[15px] inline-block' src="images/Plan_Tik_img.png" alt="Tik" />Unlimited Bandwitch</li>
                         <li><img className='pr-[15px] inline-block' src="images/Plan_Tik_img.png" alt="Tik" />Encrypted Connection</li>
                         <li><img className='pr-[15px] inline-block' src="images/Plan_Tik_img.png" alt="Tik" />No Traffic Logs</li>
